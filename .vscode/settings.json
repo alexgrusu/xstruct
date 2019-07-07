@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "ntpq.h": "c",
+    "struct.h": "c",
+    "my_alloc.h": "c",
+    "members.h": "c",
+    "inttypes.h": "c",
+    "functions.h": "c",
+    "unix_monitor.h": "c"
+  }
+}
