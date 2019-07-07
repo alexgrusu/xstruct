@@ -24,7 +24,7 @@ void *my_alloc(const int8_t *func_caller, const int8_t *type, size_t *size, int3
  *  param[out] counter of allocated memory
  * 
  * Returns:
- *  This function returns a pointer to the allocated memory, or NULL if the request fails.
+ *  This function returns a pointer to the allocated memory, or exits on failure if the request fails.
  */
   void  *p = NULL;
 
@@ -64,7 +64,7 @@ void *my_realloc(const int8_t *func_caller, void *p, const int8_t *type, size_t 
  *  param[out] counter of allocated memory
  * 
  * Returns:
- *  This function returns a pointer to the reallocated memory, or NULL if the request fails.
+ *  This function returns a pointer to the reallocated memory, or exits on failure if the request fails.
  */
   void *rp = NULL;
   
