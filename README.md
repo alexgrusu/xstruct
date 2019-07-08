@@ -7,11 +7,11 @@ Supposing that an API responds with the same structure of data (e.g., a string t
 
 In this demo project, two different methods of structure referencing are depicted. The first method(\*) exploits structure referencing through dynamic memory allocation and pointer synchronization. The second variant(+) is a more fashion approach, tailored with pre-processing techniques and macros. These two methods can be found in the 'ntpq_serial(\*)' and 'ntpq_refl(+)' folders.
 
-Both methods read the output of the following command:
-ntpq -np | grep -i "\*"
-that returns
-\*93.190.144.28   .GCC.            1 u   69 1024  377   37.091  -18.992   3.993,
-where each data is designated below
+Both methods read the output of the following command:<br/>
+ntpq -np | grep -i "\*"<br/>
+that returns<br/>
+\*93.190.144.28   .GCC.            1 u   69 1024  377   37.091  -18.992   3.993,<br/>
+where each data is designated below<br/>
      remote           refid      st t when poll reach   delay   offset  jitter.
 
 As a result, the unix command output is load in a ntpq structure that contains the fields:
