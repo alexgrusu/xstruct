@@ -18,12 +18,12 @@ that returns
 
 where each data is designated below
      
-    remote           refid      st t when poll reach   delay   offset  jitter.
+    remote           refid          st t when poll  reach delay   offset   jitter.
 
 As a result, the unix command output is load in a ntpq structure that contains the fields:
 
-- `remote`  (string);
-- `refid`   (string);
+- `remote`  (`int8_t[128]`);
+- `refid`   (`int8_t[128]`);
 - `stratum` (`int32_t`);
 - `type`    (`int8_t`);
 - `when`    (`int32_t`);
