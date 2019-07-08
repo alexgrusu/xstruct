@@ -21,5 +21,6 @@ clean:
 	rm -rf main.o
 	rm -rf ntpq.o
 	rm -rf ntpq_refl
+	rm -rf functions.o
 	rm -rf ../my_alloc/my_alloc.o
 	rm -rf ../unix_monitor/unix_monitor.o

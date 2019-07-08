@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2019 by Alexandru - George Rusu. All Rights Reserved.
+ */
+
 #include "ntpq.h"
 
 void init_ntpq_ctx(ntpq_output *ntpq)

@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2019 by Alexandru - George Rusu. All Rights Reserved.
+ */
+
 #include <inttypes.h>
 
 MAC(int8_t, [128], remote, copy_string)

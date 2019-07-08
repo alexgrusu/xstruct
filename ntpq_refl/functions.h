@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2019 by Alexandru - George Rusu. All Rights Reserved.
+ */
+
 #ifndef _FUNC_H_
 #define _FUNC_H_
 

@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2019 by Alexandru - George Rusu. All Rights Reserved.
+ */
+
 #include <stdio.h>
 #include <string.h>
 #include <inttypes.h>

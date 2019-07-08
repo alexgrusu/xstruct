@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2019 by Alexandru - George Rusu. All Rights Reserved.
+ */
+
 #ifndef _STRUCT_H_
 #define _STRUCT_H_
 

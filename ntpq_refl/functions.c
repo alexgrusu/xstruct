@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2019 by Alexandru - George Rusu. All Rights Reserved.
+ */
+
 #include <stddef.h>
 #include <string.h>
 #include <stdlib.h>

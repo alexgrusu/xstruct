@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2019 by Alexandru - George Rusu. All Rights Reserved.
+ */
+
 #ifndef _MY_ALLOC_H_
 #define _MY_ALLOC_H_
 

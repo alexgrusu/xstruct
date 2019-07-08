@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2019 by Alexandru - George Rusu. All Rights Reserved.
+ */
+
 #include "unix_monitor.h"
 #include "../my_alloc/my_alloc.h"
 
