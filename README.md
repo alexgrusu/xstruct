@@ -1,6 +1,6 @@
 # xstruct
 
-This is a demo project that presents structure referecing in C language.
+This is a demo project that presents how referencing of structure fields could be accomplished in C language.
 
 As it is well known, the access to structure members by index is not possible according to C language standard. In C++ this functionality can be emulated by using a C++ specific pointer type, known as "pointer-to-data-member". C language has no such type, but it can be emulated by using the standard `offsetof` macro and pointer arithmetics. 
 
