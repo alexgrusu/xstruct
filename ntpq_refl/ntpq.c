@@ -16,15 +16,15 @@
 void read_ntpq_output(ntpq_output *ntpq, int8_t *ntpq_output)
 {
   int32_t i = 0;
-  int8_t delim = ' ';
+  const int8_t *delim = " ";
   int8_t *ptr;
 
-  ptr = strtok(ntpq_output, &delim);
+  ptr = strtok(ntpq_output, delim);
   
   while(ptr != NULL)
   {
     func_ptr[i](ntpq, structOffset[i], ptr);
     i++;
-    ptr = strtok(NULL, &delim);
+    ptr = strtok(NULL, delim);
   }
 }
