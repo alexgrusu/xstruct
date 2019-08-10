@@ -1,6 +1,6 @@
-//
-// Copyright (c) 2019 by Alexandru - George Rusu. All Rights Reserved.
-//
+/*
+ * Copyright (c) 2019 by Alexandru - George Rusu. All Rights Reserved.
+ */
 
 #ifndef _UNIX_MONITOR_H_
 #define _UNIX_MONITOR_H_
